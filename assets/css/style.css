@@ -1,0 +1,57 @@
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+header {
+background-color: white;
+border-bottom-width: 2px;
+border-bottom-color: #cccccc;
+border-bottom-style: solid;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+    h1 {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 15px;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    header div {
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        display: inline-block;
+        text-align: right;
+        padding: 15px;
+    }
+
+    main {
+        background-image: url("./Background.png");
+        margin: 0px 0px 0px 0px; 
+    }
+
+        .container{
+            width: 500px;
+            height: 500px;
+            margin: 100px auto;
+            background-color: white;
+            position: relative
+        }
+        main div h2 {
+            color: #4aaaa5; 
+        }
+        main div img {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+        }
+       
+        main div p{
+
+        }
