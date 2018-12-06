@@ -10,6 +10,7 @@ border-bottom-style: solid;
 }
 body{
     margin: 0px 0px 0px 0px;
+    background-image: url("./Background.png");
 }
     h1 {
         background-color: #4aaaa5;
@@ -28,30 +29,57 @@ body{
     nav {
         display: inline-block;
         text-align: right;
-        padding: 15px;
+        position: relative;
+        left: 400px;
+        color: grey;
+        
+    }
+
+    A:link {
+        text-decoration: none;
+        margin: 0px 5px;
+    }
+
+    a:link + a:link {
+        border: left;
+        border-color: black;
     }
 
     main {
-        background-image: url("./Background.png");
+        /* background-image: url("./Background.png"); */
         margin: 0px 0px 0px 0px; 
     }
 
         .container{
-            width: 500px;
-            height: 500px;
-            margin: 100px auto;
+            /* padding: 100px; */
+            margin: 25%;
             background-color: white;
-            position: relative
+            border-style: solid;
+            border-color: black;
+        
         }
+
         main div h2 {
             color: #4aaaa5; 
         }
         main div img {
             width: 150px;
             height: 150px;
-            display: inline-block;
+            float: left;
         }
        
         main div p{
-
+            background-color: white;
         }
+
+    footer {
+            position: absolute;
+            height: 20px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            /* padding: 1rem; */
+            background-color: #efefef;
+            text-align: center;
+          }
+    }
