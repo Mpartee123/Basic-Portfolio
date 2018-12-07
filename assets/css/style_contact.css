@@ -59,44 +59,54 @@ body{
         border-right: none;
     }
     
-
      a {
         text-decoration: none;
         margin: 0px 5px;
         color: grey;
     }
 
-    .clearfix::after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-         
-        .container{
-            margin: 10% 20%;
-            background-color: white;
-            border-style: solid;
-            border-color: grey;
-            border-radius: 5px;
-            padding: 20px;
-        }
-
         main div h2 {
             color: #4aaaa5; 
-            font-size: 30px;
             border-bottom: solid;
             border-bottom-color: grey;
             border-width: 100%;
             padding: 15px;
+            font-size: 30px;
         }
-        main div img {
-            width: 150px;
-            height: 150px;
-            float: left;
+
+
+        input[type=text], select, textarea {
+            width: 100%; 
+            padding: 12px;   
+            border: 1px solid #ccc;
+            margin-top: 6px; 
+            margin-bottom: 16px; 
+            resize: vertical 
         }
-       
-        main div p{
+        
+
+        input[type=submit] {
+            background-color: #4aaaa5;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        /*Mouse hover color */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        /* Form background color */
+        .container {
+            border-radius: 5px;
             background-color: white;
+            padding: 20px;
+            margin: 10% 20%;
+            border-style: solid;
+            border-color: grey;
         }
 
     footer {
